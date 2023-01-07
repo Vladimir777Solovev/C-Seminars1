@@ -5,6 +5,8 @@
 // 12821 -> да
 // 23432 -> да
 
+
+
 // Console.Write("Введите число: ");
 // string a = Console.ReadLine();
 // int b = a.Length;
@@ -24,6 +26,8 @@
 // {
 //     Console.WriteLine($"Не соблюдено условие {(b == 5)}. Число не является пятизначным");
 // }
+
+
 
 
 
@@ -59,6 +63,9 @@
 // }
 // double result = Range(x1, y1, z1, x2, y2, z2);
 // Console.WriteLine($"A: ({x1}, {y1}, {z1}); B: ({x2}, {y2}, {z2}) -> {Math.Round(result, 2, MidpointRounding.ToZero)}");
+
+
+
 
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) 
