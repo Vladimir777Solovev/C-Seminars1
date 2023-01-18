@@ -5,10 +5,20 @@
 
 // Console.Write("Enter the number you want to raise to a power: ");
 // double a = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Enter the degree to which you want to raise the number: ");
+// Console.Write("Enter the degree to which you want to raise the number(number must be bigger then zero): ");
 // double b = Convert.ToInt32(Console.ReadLine());
 // double c = Math.Pow(a, b);
 // Console.WriteLine($"Your number is: {c}");
+//// if (b < 0)
+//// {
+////     Console.WriteLine("Your number is less then zero");
+//// }
+//// else
+//// {
+////     Console.WriteLine($"Your number is: {c}");
+//// }
+
+
 
 // Задача 27: Напишите программу, которая принимает на вход число
 //  и выдаёт сумму цифр в числе.
