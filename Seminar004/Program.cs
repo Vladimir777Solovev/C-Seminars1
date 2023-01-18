@@ -8,7 +8,7 @@
 // Console.Write("Enter the degree to which you want to raise the number: ");
 // double b = Convert.ToInt32(Console.ReadLine());
 // double c = Math.Pow(a, b);
-// Console.WriteLine($"Your number is {c}");
+// Console.WriteLine($"Your number is: {c}");
 
 // Задача 27: Напишите программу, которая принимает на вход число
 //  и выдаёт сумму цифр в числе.
