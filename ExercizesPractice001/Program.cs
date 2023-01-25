@@ -184,3 +184,142 @@
 // double y2 = Convert.ToInt32(Console.ReadLine());
 
 // System.Console.WriteLine("Distance between points is: " + Distance(x1, y1, x2, y2));
+
+// int[] CreateRandomArray(int size, int minValue, int maxValue)
+// {
+//     int[] array = new int[size];
+
+//     for(int i = 0; i < size; i++)
+//     {
+//         array[i] = new Random().Next(minValue, maxValue + 1);
+//     }
+//     return array;
+// }
+
+
+// int[] CreateArray(int size)
+// {
+//     int[] array = new int[size];
+
+//     for(int i = 0; i < size; i++)
+//     {
+//         System.Console.Write($"input an {i+1} element: ");
+//         array[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+//     return array;
+
+// }
+
+// void ShowArray(int[] array)
+// {
+
+// }
+
+// Console.Write("Input a length of array: ");
+// int length = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a min possible value: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a max possible value: ");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// int[] newArray = CreateRandomArray(length);
+// ShowArray(newArray);
+
+
+
+
+// Напишите программу, которая принимает на вход число (А) 
+// и выдаёт сумму чисел от 1 до А.
+
+// int GetSum(int num)
+// {
+//     int sum = 0;
+//     for(int current = 1; current <= num; current++)
+//     {
+//         sum += current; //sum = sum + current;
+//     }
+//     return sum;
+// }
+
+// Console.Write("Input a number: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int result = GetSum(a);
+// System.Console.WriteLine($"Your number is {result}");
+
+
+// Напишите программу, которая принимает на вход число 
+// и выдаёт количество цифр в числе.
+
+// int Numbers(int n)
+// {
+//     int count = 0;
+//     while(n != 0)
+//     {
+//         n = n / 10;
+//         count += 1;
+//     }
+//     return count;
+
+// }
+// System.Console.WriteLine("Input a number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// int result = Numbers(num);
+// System.Console.WriteLine($"Your amount is: {result}");
+
+
+// Напишите программу, которая принимает на вход число N 
+// и выдаёт произведение чисел от 1 до N.
+
+
+// int GetSum(int num)
+// {
+//     int sum = 0;
+//     for(int current = 1; current <= num; current++)
+//     {
+//         sum = (current - 1) * current; //sum = sum + current;
+//     }
+//     return sum;
+// }
+
+// Console.Write("Input a number: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int result = GetSum(a);
+// System.Console.WriteLine($"Your number is {result}");
+
+
+
+
+
+
+
+
+// // Задайте массив из 12 элементов, 
+// // заполненный случайными числами из промежутка [-9, 9]. 
+// // Найдите сумму отрицательных элементов массива.
+
+// int GetSumOfNegative(int[] array)
+// {
+//     int sum = 0;
+
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if(array[i] < 0)
+//         sum += array[i];
+//     }
+//     return sum;
+// }
+
+// Console.Write("Input a length of array: ");
+// int length = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a min possible value: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a max possible value: ");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// int[] newArray = CreateRandomArray(length, min, max);
+// ShowArray(newArray);
+
+
+
+
