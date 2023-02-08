@@ -76,16 +76,16 @@
 
 
 
-// Console.Write("Input a number of a1: ");
-// double a1 = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Input a number of b1: ");
 // double b1 = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Input a number of a2: ");
-// double a2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a number of k1: ");
+// double k1 = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Input a number of b2: ");
 // double b2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a number of k2: ");
+// double k2 = Convert.ToInt32(Console.ReadLine());
 
-// double x = (-a2 + a1)/(-b1 + b2);
-// double y = b2 * x + a2;
+// double x = (-b2 + b1)/(-k1 + k2);
+// double y = k2 * x + b2;
 
 // Console.WriteLine($"Two lines will cross at X: {x}, Y: {y}");
